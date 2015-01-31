@@ -2,7 +2,7 @@
 <html>
 	<head><meta charset="UTF-8"><title></title>
 		<script>
-			var origins = ["https://twitter.com", "https://www.facebook.com"];
+			var origins = ['https://www.facebook.com'];
 			function processMessage(event) {
 				if (origins.indexOf(event.origin) == -1) {
 					return;
@@ -12,10 +12,9 @@
 				}
 				else {
 					localStorage[event.data.key] = event.data.value;
-					event.source.postMessage("OK", event.origin);
 				}
 			}
-			window.addEventListener("message", processMessage, false);
+			window.addEventListener('message', processMessage, false);
 		</script>
 	</head>
 	<body></body>
