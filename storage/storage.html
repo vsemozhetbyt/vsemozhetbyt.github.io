@@ -1,10 +1,22 @@
 <!doctype html>
 <html>
 	<head><meta charset="UTF-8"><title></title>
-	</head>
-	<body>
 		<script>
-			document.write(localStorage.length && localStorage.key(0));
+			var origins = ["https://twitter.com", "https://www.facebook.com"];
+			function processMessage(event) {
+				if (origins.indexOf(event.origin) = -1) {
+					return;
+				}
+				if (event.data.action = 'get') {
+					event.source.postMessage(localStorage[event.data.key], event.origin);
+				}
+				else {
+					localStorage[event.data.key] = event.data.value;
+					event.source.postMessage("OK", event.origin);
+				}
+			}
+			window.addEventListener("message", processMessage, false);
 		</script>
-	</body>
+	</head>
+	<body></body>
 </html>
