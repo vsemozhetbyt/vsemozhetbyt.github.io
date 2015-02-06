@@ -2,11 +2,7 @@
 <html>
 	<head><meta charset="UTF-8"><title></title>
 		<script>
-			var origins = ['https://www.facebook.com'];
 			function processMessage(event) {
-				if (origins.indexOf(event.origin) == -1) {
-					return;
-				}
 				if (event.data.action == 'get') {
 					event.source.postMessage(localStorage[event.data.key], event.origin);
 				}
