@@ -1,1 +1,1 @@
-# vsemozhetbyt.github.io
+vsemozhetbyt varia pages
