@@ -2,6 +2,7 @@
 <html>
 	<head><meta charset="UTF-8"><title>Bookmarklets</title></head>
 	<body>
-		<p></p><a href="javascript:(function(d,dt,ll,llf,ln,l,i){dt=d.title;ll=d.querySelectorAll('a[href].UFIPagerLink,a[href].UFICommentLink');for(i=0,llf=[];l=ll[i];i++){if(!l.querySelector('.UFICollapseIcon')){llf.push(l);}}ln=llf.length;for(i=0;l=llf[i];i++){setTimeout((function(lt,n){return function(){d.title=n+': '+dt;lt.click();};})(l,ln--),500*(i+1));}setTimeout(function(){d.title=dt;},500*(i+1));})(document)">Facebook: развернуть все комментарии</a></p>
+		<p></p><a href="javascript:(function(d,dt,ll,llf,ln,l,i){dt=d.title;ll=d.querySelectorAll('a[href].UFIPagerLink,a[href].UFICommentLink');for(i=0,llf=[];l=ll[i];i++){if(!l.querySelector('.UFICollapseIcon')){llf.push(l);}}ln=llf.length;for(i=0;l=llf[i];i++){setTimeout((function(lt,n){return function(){d.title=n+': '+dt;lt.click();};})(l,ln--),500*(i+1));}setTimeout(function(){d.title=dt;},500*(i+1));})(document)">Facebook: развернуть ветки комментариев</a></p>
+		<p></p><a href="javascript:(function(d,dt,ll,ln,l,i){dt=d.title;ll=d.querySelectorAll('a[href="#"].fss');for(i=0,ln=ll.length;l=ll[i];i++){setTimeout((function(lt,n){return function(){d.title=n+': '+dt;lt.click();};})(l,ln--),500*(i+1));}setTimeout(function(){d.title=dt;},500*(i+1));})(document)">Facebook: раскрыть части длинных комментариев</a></p>
 	</body>
 </html>
