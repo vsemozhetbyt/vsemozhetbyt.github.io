@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 	<head><meta charset="UTF-8"><title>Bookmarklets</title></head>
-	<body>
+	<body style='text-align: center;'>
 		<p><a href="javascript:(function(d,dt,ll,ln,l,i){dt=d.title;ll=d.evaluate('.//a[@href and (contains(@class, \'UFIPagerLink\') or contains(@class, \'UFICommentLink\'))'+'and not(descendant::*[contains(@class, \'UFICollapseIcon\')])]',d.body,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null);for (i=0,ln=ll.snapshotLength;l=ll.snapshotItem(i); i++) {setTimeout((function(lt,n){return function(){d.title=n+': '+dt;lt.click();};})(l,ln--),500*(i+1));}setTimeout(function(){d.title=dt;},500*(i+1));})(document)">Facebook: развернуть ветки комментариев</a></p>
 		<p><a href="javascript:(function(d,dt,ll,ln,l,i){dt=d.title;ll=d.querySelectorAll('a[href=\'#\'].fss');for(i=0,ln=ll.length;l=ll[i];i++){setTimeout((function(lt,n){return function(){d.title=n+': '+dt;lt.click();};})(l,ln--),500*(i+1));}setTimeout(function(){d.title=dt;},500*(i+1));})(document)">Facebook: раскрыть части длинных комментариев</a></p>
 	</body>
