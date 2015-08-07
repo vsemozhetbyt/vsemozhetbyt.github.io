@@ -1,0 +1,8 @@
+<!doctype html>
+<html>
+	<head><meta charset="UTF-8"><title>Bookmarklets: shy and zwsp</title></head>
+	<body style="text-align: center; font-family: monospace; font-size: 14pt;">
+		<p><a href="javascript:(function(d,e,shy,s1,s2,v,sy,sx){if(e.type=='textarea'||e.type=='text'){s1=e.selectionStart;s2=e.selectionEnd;sy=e.scrollTop;sx=e.scrollLeft;v=e.value;e.value=v.substring(0,s1)+shy+v.substring(s2);e.selectionStart=e.selectionEnd=++s1;e.scrollTop=sy;e.scrollLeft=sx;e.focus();}else if((e.isContentEditable||d.designMode=='on')&&d.queryCommandSupported('insertText')||(d=e.contentDocument)&&(d.activeElement.isContentEditable||d.designMode=='on')&&d.queryCommandSupported('insertText')){d.execCommand('insertText',false,shy);}else{prompt('Copy and paste in the text:',shy);}})(document,document.activeElement,'\u00ad')">shy</a></p>
+		<p><a href="javascript:(function(d,e,zwsp,s1,s2,v,sy,sx){if(e.type=='textarea'||e.type=='text'){s1=e.selectionStart;s2=e.selectionEnd;sy=e.scrollTop;sx=e.scrollLeft;v=e.value;e.value=v.substring(0,s1)+zwsp+v.substring(s2);e.selectionStart=e.selectionEnd=++s1;e.scrollTop=sy;e.scrollLeft=sx;e.focus();}else if((e.isContentEditable||d.designMode=='on')&&d.queryCommandSupported('insertText')||(d=e.contentDocument)&&(d.activeElement.isContentEditable||d.designMode=='on')&&d.queryCommandSupported('insertText')){d.execCommand('insertText',false,zwsp);}else{prompt('Copy and paste in the text:',zwsp);}})(document,document.activeElement,'\u200b')">shy</a></p>
+	</body>
+</html>
