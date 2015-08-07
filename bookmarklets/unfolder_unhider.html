@@ -1,6 +1,6 @@
 <!doctype html>
 <html>
-	<head><meta charset="UTF-8"><title>Bookmarklets</title></head>
+	<head><meta charset="UTF-8"><title>Bookmarklets: Unfolder and Unhider</title></head>
 	<body style='text-align: center;'>
 		<p><a href="javascript:(function(d,dt,ll,ln,l,i){dt=d.title;ll=Array.prototype.slice.call(d.querySelectorAll('a[href].UFIPagerLink,a[href].UFICommentLink')).filter(function(el){return !el.querySelector('.UFICollapseIcon');});for(i=0,ln=ll.length;l=ll[i];i++){setTimeout((function(lt,n){return function(){d.title=n+': '+dt;lt.click();};})(l,ln--),500*(i+1));}setTimeout(function(){d.title=dt;},500*(i+1));})(document)">Facebook: развернуть ветки комментариев</a></p>
 		<p><a href="javascript:(function(d,dt,ll,ln,l,i){dt=d.title;ll=d.querySelectorAll('a[href=\'#\'].fss');for(i=0,ln=ll.length;l=ll[i];i++){setTimeout((function(lt,n){return function(){d.title=n+': '+dt;lt.click();};})(l,ln--),500*(i+1));}setTimeout(function(){d.title=dt;},500*(i+1));})(document)">Facebook: раскрыть части длинных комментариев</a></p>
