@@ -1,1 +1,1 @@
-vsemozhetbyt varia pages
+Vsemozhetbyt's varia
