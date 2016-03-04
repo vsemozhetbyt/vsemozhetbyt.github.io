@@ -1,0 +1,65 @@
+﻿<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Удлинитель субтитров (.srt): в обе стороны</title>
+		<meta charset="UTF-8">
+		<style type="text/css">
+			textarea {padding: 5px; font-family: monospace;}
+		</style>
+		<script>
+			function timecode2ms(timecode) {
+				var timeParts = timecode.split(/:|,/);
+				var ms = 
+					Number(timeParts[3]) +
+					Number(timeParts[2])*1000 +
+					Number(timeParts[1])*60000 +
+					Number(timeParts[0])*3600000;
+				return ms;
+			}
+			
+			function ms2timecode(ms) {
+				var timecode = (
+					Math.floor(ms / 3600000) + ":" +
+					Math.floor((ms % 3600000) / 60000) + ":" +
+					Math.floor((ms % 60000) / 1000) + "," +
+					Math.floor(ms % 1000)
+				).replace(/\b(\d)\b/g, "0$1").replace(/,(\d\d)\b/, ",0$1");
+				return timecode;
+			}
+			
+			function prolong() {
+				var input = document.getElementById('input').value.replace(/\n\n$/, "");
+				var subts = input.split("\n\n");
+				for (var i = 0, l = subts.length; i < l; i++) {
+					subts[i] = subts[i].split("\n");
+					subts[i][1] = subts[i][1].split(" --> ");
+					subts[i][1][0] = timecode2ms(subts[i][1][0]);
+					subts[i][1][1] = timecode2ms(subts[i][1][1]);
+				}
+				subts[0][1][0] = ms2timecode(subts[0][1][0]);
+				for (var i = 0, l = subts.length-1; i < l; i++) {
+					var curEnd = subts[i][1][1];
+					var nextStart = subts[i+1][1][0];
+					var halfGap = Math.floor((nextStart - curEnd) / 2);
+					if (halfGap > 0) {
+						curEnd += (halfGap - 1);
+						nextStart -= halfGap;
+					}
+					subts[i][1][1] = ms2timecode(curEnd);
+					subts[i+1][1][0] = ms2timecode(nextStart);
+				}
+				subts[subts.length-1][1][1] = ms2timecode(subts[subts.length-1][1][1]);
+				for (var i = 0, l = subts.length; i < l; i++) {
+					subts[i][1] = subts[i][1].join(" --> ");
+					subts[i] = subts[i].join("\n");
+				}
+				document.getElementById('output').value = subts.join("\n\n");
+			}
+		</script>
+	</head>
+	<body>
+		<textarea id="input" cols="80" rows="10"></textarea><br>
+		<input type="button" value="Удлинить в обе стороны" onclick="prolong();"><br>
+		<textarea id="output" cols="80" rows="10"></textarea><br>
+	</body>
+</html>
