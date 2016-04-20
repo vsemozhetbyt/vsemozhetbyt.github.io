@@ -1,1 +1,1 @@
-Vsemozhetbyt's varia
+vsemozhetbyt's varia
