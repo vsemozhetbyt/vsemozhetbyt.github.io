@@ -34,7 +34,7 @@ function getRanges(propRE) {
       if (lastMatchedCodePoint === undefined) {
         ranges.push([targetCodePoint]);
       } else if (targetCodePoint - lastMatchedCodePoint !== 1) {
-        closeRange(ranges, lastMatchedCodePoint);
+        closeLastRange(ranges, lastMatchedCodePoint);
         ranges.push([targetCodePoint]);
       }
       lastMatchedCodePoint = targetCodePoint;
@@ -43,26 +43,19 @@ function getRanges(propRE) {
   }
 
   if (lastMatchedCodePoint !== undefined) {
-    closeRange(ranges, lastMatchedCodePoint);
+    closeLastRange(ranges, lastMatchedCodePoint);
     
-    return [
-      new RegExp(`[${
-        ranges
-          .map(range => range.map(cp => `\\u{${cp.toString(16)}}`).join('-'))
-          .join('')
-      }]`, 'u'),
-      new RegExp(`[${
-        ranges
-          .map(range => range.map(cp => String.fromCodePoint(cp)).join('-'))
-          .join('')
-      }]`, 'u'),
-    ].join('\n\n');
+    return new RegExp(`[${
+      ranges
+        .map(range => range.map(cp => `\\u{${cp.toString(16)}}`).join('-'))
+        .join('')
+    }]`, 'u');
   } else {
     return null;
   }
 }
 /******************************************************************************/
-function closeRange(ranges, lastMatchedCodePoint) {
+function closeLastRange(ranges, lastMatchedCodePoint) {
   const lastRange = ranges[ranges.length - 1];
   if (lastRange[0] !== lastMatchedCodePoint) {
     lastRange.push(lastMatchedCodePoint);
