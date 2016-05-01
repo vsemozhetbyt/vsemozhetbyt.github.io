@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Get Character Class Ranges RegExp from Unicode Property RegExp</title>
+    <style>
+      body * {font-family: monospace;}
+    </style>
+    <script>
+/******************************************************************************/
+'use strict';
+/******************************************************************************/
+function convert() {
+  const propName = document.querySelector('#propRE').value.trim() || 'L';
+  try {
+    const propRE = new RegExp(`\\p{${propName}}`, 'u');
+    document.querySelector('#rangeRE').title = `${propRE} =`;
+    document.querySelector('#rangeRE').value =
+              getRanges(propRE) || 'No matched code points found.';
+  } catch(e) {
+    document.querySelector('#rangeRE').value = e.message;
+  }
+}
+/******************************************************************************/
+function getRanges(propRE) {
+  const UNICODE_EDGE = 0x110000;
+  
+  let   ranges = [];
+  let   targetCodePoint = 0;
+  let   lastMatchedCodePoint;
+
+  while (targetCodePoint < UNICODE_EDGE) {
+    if (propRE.test(String.fromCodePoint(targetCodePoint))) {
+      if (lastMatchedCodePoint === undefined) {
+        ranges.push([targetCodePoint]);
+      } else if (targetCodePoint - lastMatchedCodePoint !== 1) {
+        closeRange(ranges, lastMatchedCodePoint);
+        ranges.push([targetCodePoint]);
+      }
+      lastMatchedCodePoint = targetCodePoint;
+    }
+    targetCodePoint++;
+  }
+
+  if (lastMatchedCodePoint !== undefined) {
+    closeRange(ranges, lastMatchedCodePoint);
+    
+    return [
+      new RegExp(`[${
+        ranges
+          .map(range => range.map(cp => `\\u{${cp.toString(16)}}`).join('-'))
+          .join('')
+      }]`, 'u'),
+      new RegExp(`[${
+        ranges
+          .map(range => range.map(cp => String.fromCodePoint(cp)).join('-'))
+          .join('')
+      }]`, 'u'),
+    ].join('\n\n');
+  } else {
+    return null;
+  }
+}
+/******************************************************************************/
+function closeRange(ranges, lastMatchedCodePoint) {
+  const lastRange = ranges[ranges.length - 1];
+  if (lastRange[0] !== lastMatchedCodePoint) {
+    lastRange.push(lastMatchedCodePoint);
+  }
+}
+/******************************************************************************/
+    </script>
+  </head>
+  <body>
+    <input type='text' id='propRE' value='L' title='Enter unicode property'
+      onkeydown='(evt => {if(evt.key === "Enter"){convert();}})(event);'>
+    <input type='button' id='convert' value='Get Ranges' onclick='convert();'>
+    <br><br>
+    <textarea id='rangeRE' cols='80' rows='20'></textarea>
+  </body>
+</html>
