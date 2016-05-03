@@ -13,8 +13,8 @@
 function convert() {
   const propName = document.querySelector('#propRE').value.trim() || 'L';
   try {
-    const propRE = new RegExp(`\\p{${propName}}`, 'u');
-    document.querySelector('#rangeRE').title = `${propRE} =`;
+    document.querySelector('#rangeRE').title = `${new RegExp(`\\p{${propName}}`, 'u')} =`;
+    const propRE = new RegExp(`^\\p{${propName}}$`, 'u');
     document.querySelector('#rangeRE').value =
               getRanges(propRE) || 'No matched code points found.';
   } catch(e) {
