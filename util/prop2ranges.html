@@ -25,7 +25,8 @@ function convert() {
 function getRanges(propRE) {
   const UNICODE_EDGE = 0x110000;
   
-  let   ranges = [];
+  const ranges = [];
+  
   let   targetCodePoint = 0;
   let   lastMatchedCodePoint;
 
