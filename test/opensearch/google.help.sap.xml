@@ -1,0 +1,9 @@
+﻿<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Google SAP Help</ShortName>
+  <Description>Search in SAP Help Portal via Google</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image height="16" width="16" type="image/x-icon">http://help.sap.com/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://www.google.com/search?q={searchTerms}+site:help.sap.com"/>
+  <moz:SearchForm>http://help.sap.com/</moz:SearchForm>
+</OpenSearchDescription>
