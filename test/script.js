@@ -1,2 +1,2 @@
-window.script_executed = true;
-document.body.title = '123';
+window.script_executed = 2;
+document.body.title = 'test 1';
