@@ -1,0 +1,44 @@
+﻿<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Normalize small post font in Facebook</title>
+    <style>
+      body {font-family: monospace;}
+      div {margin: 10px}
+    </style>
+    <script>
+      var counter, input;
+
+      function init(){
+        counter = document.getElementById('counter');
+        input = document.getElementById('input');
+      }
+
+      function updateCounter() {
+        counter.textContent = input.value.length;
+      }
+
+      function pad(padding) {
+        var len = input.value.length;
+        var lack = 85 - len;
+        if (lack > 0) {
+          input.value += new Array(lack+1).join(padding);
+        }
+        updateCounter();
+        input.select();
+      }
+    </script>
+  </head>
+  <body onload='init()'>
+    <div id='counter'>0</div>
+    <div>
+      <textarea id='input' cols='100' rows='5' autofocus oninput='updateCounter()'></textarea>
+    </div>
+    <div>
+      <button id='mms' onclick='pad("\u205f")'>Add MMS</button>
+      <button id='is' onclick='pad("\u3000")'>Add IS</button>
+      <button id='mms_is' onclick='pad("\u205f\u3000")'>Add MMS + IS</button>
+    </div>
+  </body>
+</html>
