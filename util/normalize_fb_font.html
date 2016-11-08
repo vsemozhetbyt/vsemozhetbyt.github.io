@@ -23,7 +23,7 @@
         var len = input.value.length;
         var lack = 85 - len;
         if (lack > 0) {
-          input.value += new Array(lack+1).join(padding);
+          input.value += ' ' + new Array(lack+1).join(padding);
         }
         updateCounter();
         input.select();
