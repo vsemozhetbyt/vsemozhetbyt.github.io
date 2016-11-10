@@ -1,11 +1,11 @@
-﻿<!doctype html>
+<!doctype html>
 <html>
   <head>
     <meta charset="UTF-8">
     <title>Normalize small post font in Facebook</title>
     <style>
       body {font-family: monospace;}
-      div {margin: 10px}
+      div, a {margin: 10px}
     </style>
     <script>
       var counter, input;
@@ -39,6 +39,13 @@
       <button id='mms' onclick='pad("\u205f")'>Add MMS</button>
       <button id='is' onclick='pad("\u3000")'>Add IS</button>
       <button id='mms_is' onclick='pad("\u205f\u3000")'>Add MMS + IS</button>
+    </div>
+    <br><br><br>
+    <div>
+      Bookmarklets:
+      <a href='javascript:(function(){ var sel = getSelection().toString(); prompt("Copy:", sel + " " + new Array(85 - sel.length + 1).join("\u205f")); })()'>Add MMS</a>
+      <a href='javascript:(function(){ var sel = getSelection().toString(); prompt("Copy:", sel + " " + new Array(85 - sel.length + 1).join("\u3000")); })()'>Add IS</a>
+      <a href='javascript:(function(){ var sel = getSelection().toString(); prompt("Copy:", sel + " " + new Array(85 - sel.length + 1).join("\u205f\u3000")); })()'>Add MMS + IS</a>
     </div>
   </body>
 </html>
