@@ -1,0 +1,7 @@
+﻿<!doctype html>
+<html>
+  <head><meta charset="UTF-8"><title>Bookmarklets: Styles</title></head>
+  <body style='text-align: center;'>
+    <p><a href="javascript: { let st = document.getElementById('stickyTHeadStyle'); if (st) { st.parentNode.removeChild(st); } else { st = document.createElement('style'); st.id = 'stickyTHeadStyle'; st.innerHTML = 'thead { position: sticky; top: 1px; }'; document.querySelector('head').appendChild(st); } }">Закрепить / открепить заголовки таблиц</a></p>
+  </body>
+</html>
