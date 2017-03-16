@@ -1,0 +1,45 @@
+﻿<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Fuzzy Reading</title>
+    <style>
+      body {font-family: monospace;}
+      div {margin: 10px}
+    </style>
+  </head>
+  <body>
+    <div>
+      <textarea id='input' cols='100' rows='10' autofocus></textarea>
+    </div>
+    <div>
+      <button id='badc' onclick="fuzz('badc')">abcd -&gt; badc</button>
+      <button id='dcba' onclick="fuzz('dcba')">abcd -&gt; dcba</button>
+    </div>
+    <div>
+      <textarea id='output' cols='100' rows='10'></textarea>
+    </div>
+
+    <script>
+      const input = document.getElementById('input');
+      const output = document.getElementById('output');
+
+      const letters = `a-zа-яёєіїўґ`;
+      const symbols = `'-`;
+      const word = new RegExp(`([${letters}])([${letters}${symbols}]{2,})([${letters}])`, 'gi');
+
+      const modes = {
+        badc(match, first, middle, last) {
+          return `${first}${middle.replace(/(.)(.)/g, '$2$1')}${last}`;
+        },
+        dcba(match, first, middle, last) {
+          return `${first}${middle.split('').reverse().join('')}${last}`;
+        },
+      };
+
+      function fuzz(mode) {
+        output.value = input.value.replace(word, modes[mode]);
+      }
+    </script>
+  </body>
+</html>
