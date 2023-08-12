@@ -1,0 +1,1138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <Style id="placemark-red">
+    <IconStyle>
+      <Icon>
+        <href>https://omaps.app/placemarks/placemark-red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-blue">
+    <IconStyle>
+      <Icon>
+        <href>https://omaps.app/placemarks/placemark-blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-purple">
+    <IconStyle>
+      <Icon>
+        <href>https://omaps.app/placemarks/placemark-purple.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-yellow">
+    <IconStyle>
+      <Icon>
+        <href>https://omaps.app/placemarks/placemark-yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-pink">
+    <IconStyle>
+      <Icon>
+        <href>https://omaps.app/placemarks/placemark-pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-brown">
+    <IconStyle>
+      <Icon>
+        <href>https://omaps.app/placemarks/placemark-brown.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-green">
+    <IconStyle>
+      <Icon>
+        <href>https://omaps.app/placemarks/placemark-green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-orange">
+    <IconStyle>
+      <Icon>
+        <href>https://omaps.app/placemarks/placemark-orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-deeppurple">
+    <IconStyle>
+      <Icon>
+        <href>https://omaps.app/placemarks/placemark-deeppurple.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-lightblue">
+    <IconStyle>
+      <Icon>
+        <href>https://omaps.app/placemarks/placemark-lightblue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-cyan">
+    <IconStyle>
+      <Icon>
+        <href>https://omaps.app/placemarks/placemark-cyan.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-teal">
+    <IconStyle>
+      <Icon>
+        <href>https://omaps.app/placemarks/placemark-teal.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-lime">
+    <IconStyle>
+      <Icon>
+        <href>https://omaps.app/placemarks/placemark-lime.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-deeporange">
+    <IconStyle>
+      <Icon>
+        <href>https://omaps.app/placemarks/placemark-deeporange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-gray">
+    <IconStyle>
+      <Icon>
+        <href>https://omaps.app/placemarks/placemark-gray.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-bluegray">
+    <IconStyle>
+      <Icon>
+        <href>https://omaps.app/placemarks/placemark-bluegray.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <name>Мітки</name>
+  <visibility>1</visibility>
+  <ExtendedData xmlns:mwm="https://omaps.app">
+    <mwm:name>
+      <mwm:lang code="default">Мітки</mwm:lang>
+    </mwm:name>
+    <mwm:annotation>
+    </mwm:annotation>
+    <mwm:description>
+    </mwm:description>
+    <mwm:lastModified>2023-08-11T17:45:18Z</mwm:lastModified>
+    <mwm:accessRules>Local</mwm:accessRules>
+  </ExtendedData>
+  <Placemark>
+    <name>Будівля</name>
+    <TimeStamp><when>2023-08-03T23:03:16Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.447517,50.49403</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">Будівля</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>17</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Будівля</name>
+    <TimeStamp><when>2023-08-10T04:21:26Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.535705,50.443733</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">Будівля</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>17</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Печерський узвіз, 19</name>
+    <TimeStamp><when>2023-08-10T04:21:47Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.538892,50.436416</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">Печерський узвіз, 19</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>16</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Фортечний тупик, 6/8</name>
+    <TimeStamp><when>2023-08-10T04:22:09Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.532137,50.423148</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">Фортечний тупик, 6/8</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>17</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>вулиця Костянтина Данькевича, 12</name>
+    <TimeStamp><when>2023-08-10T04:23:40Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.614227,50.521791</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">вулиця Костянтина Данькевича, 12</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>17</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Братиславська вулиця, 7</name>
+    <TimeStamp><when>2023-08-10T04:24:03Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.61828,50.475908</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">Братиславська вулиця, 7</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>17</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>вулиця Кубанської України, 31-А</name>
+    <TimeStamp><when>2023-08-10T04:24:24Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.636355,50.47614</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">вулиця Кубанської України, 31-А</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>18</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Вишняківська вулиця, 1</name>
+    <TimeStamp><when>2023-08-10T04:24:35Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.651067,50.393103</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">Вишняківська вулиця, 1</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>16</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>вулиця Юрія Іллєнка, 18-Б</name>
+    <TimeStamp><when>2023-08-10T04:25:10Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.476954,50.466179</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">вулиця Юрія Іллєнка, 18-Б</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>16</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>вулиця Миколи Пимоненка, 10-А</name>
+    <TimeStamp><when>2023-08-10T04:25:34Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.493991,50.460759</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">вулиця Миколи Пимоненка, 10-А</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>16</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>вулиця Богдана Хмельницького, 48</name>
+    <TimeStamp><when>2023-08-10T04:25:53Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.50696,50.447309</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">вулиця Богдана Хмельницького, 48</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>18</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>вулиця Генерала Алмазова, 14</name>
+    <TimeStamp><when>2023-08-10T04:26:20Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.536383,50.427097</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">вулиця Генерала Алмазова, 14</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>15</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Урлівська вулиця, 16</name>
+    <TimeStamp><when>2023-08-10T04:26:45Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.622086,50.405649</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">Урлівська вулиця, 16</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>16</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>проспект Миколи Бажана, 10-А</name>
+    <TimeStamp><when>2023-08-10T04:27:12Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.620408,50.395301</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">проспект Миколи Бажана, 10-А</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>18</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>вулиця Оноре де Бальзака, 42/20</name>
+    <TimeStamp><when>2023-08-10T04:32:27Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.601331,50.512473</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">вулиця Оноре де Бальзака, 42/20</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>18</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>вулиця Оноре де Бальзака, 6</name>
+    <TimeStamp><when>2023-08-10T04:32:44Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.579099,50.500504</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">вулиця Оноре де Бальзака, 6</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>18</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ангар</name>
+    <TimeStamp><when>2023-08-10T04:33:53Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.604348,50.457296</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">Ангар</mwm:lang>
+        <mwm:lang code="uk">Ангар</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>17</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>проспект Соборності, 15</name>
+    <TimeStamp><when>2023-08-10T04:34:20Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.615174,50.438141</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">проспект Соборності, 15</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>16</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Срібнокільська вулиця, 4</name>
+    <TimeStamp><when>2023-08-10T04:34:39Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.629011,50.401055</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">Срібнокільська вулиця, 4</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>18</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Лісова</name>
+    <TimeStamp><when>2023-08-10T04:37:26Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.64597,50.46476</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">Лісова</mwm:lang>
+        <mwm:lang code="old_name">Піонерська</mwm:lang>
+        <mwm:lang code="en">Lisova</mwm:lang>
+        <mwm:lang code="uk">Лісова</mwm:lang>
+        <mwm:lang code="ru">Лесная</mwm:lang>
+        <mwm:lang code="zh">森林</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>railway-station-subway-kiev</mwm:value>
+        <mwm:value>wheelchair-yes</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>16</mwm:scale>
+      <mwm:icon>Transport</mwm:icon>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>вулиця Августина Волошина, 2-А</name>
+    <TimeStamp><when>2023-08-10T04:38:44Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.442147,50.43496</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">вулиця Августина Волошина, 2-А</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>16</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Велика Васильківська вулиця, 104</name>
+    <TimeStamp><when>2023-08-10T04:39:16Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.517442,50.424809</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">Велика Васильківська вулиця, 104</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>16</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>проспект Володимира Івасюка, 20</name>
+    <TimeStamp><when>2023-08-10T04:40:07Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.510148,50.510869</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">проспект Володимира Івасюка, 20</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>17</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>вулиця Героїв Дніпра, 35</name>
+    <TimeStamp><when>2023-08-10T04:40:38Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.494438,50.523078</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">вулиця Героїв Дніпра, 35</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>16</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Глибочицька вулиця, 33-37</name>
+    <TimeStamp><when>2023-08-10T04:41:29Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.494882,50.462794</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">Глибочицька вулиця, 33-37</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>16</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>вулиця Антона Цедіка, 7</name>
+    <TimeStamp><when>2023-08-10T04:41:50Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.439098,50.458613</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">вулиця Антона Цедіка, 7</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>16</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>вулиця Академіка Єфремова, 7-А</name>
+    <TimeStamp><when>2023-08-10T04:42:15Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.350972,50.463271</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">вулиця Академіка Єфремова, 7-А</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>16</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Зоологічна вулиця, 1</name>
+    <TimeStamp><when>2023-08-10T04:42:45Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.460086,50.454566</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">Зоологічна вулиця, 1</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>16</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Йорданська вулиця, 17</name>
+    <TimeStamp><when>2023-08-10T04:45:00Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.503464,50.498826</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">Йорданська вулиця, 17</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>16</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Кирилівська вулиця, 46</name>
+    <TimeStamp><when>2023-08-10T04:45:29Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.497784,50.473271</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">Кирилівська вулиця, 46</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>16</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>бульвар Лесі Українки, 23-А</name>
+    <TimeStamp><when>2023-08-10T04:46:06Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.544718,50.424507</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">бульвар Лесі Українки, 23-А</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>17</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>проспект Валерія Лобановського, 128</name>
+    <TimeStamp><when>2023-08-10T04:46:40Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.503161,50.406549</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">проспект Валерія Лобановського, 128</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>17</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>вулиця Юлії Здановської, 58-А</name>
+    <TimeStamp><when>2023-08-10T04:47:49Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.45984,50.384638</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">вулиця Юлії Здановської, 58-А</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>16</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Завод скловиробів</name>
+    <TimeStamp><when>2023-08-10T04:49:11Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.427459,50.449099</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">Завод скловиробів</mwm:lang>
+        <mwm:lang code="uk">Завод скловиробів</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>17</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Центральна стоматологічна поліклініка МОЗ України</name>
+    <TimeStamp><when>2023-08-10T04:49:42Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.508933,50.470313</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">Центральна стоматологічна поліклініка МОЗ України</mwm:lang>
+        <mwm:lang code="uk">Центральна стоматологічна поліклініка МОЗ України</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>amenity-dentist</mwm:value>
+        <mwm:value>building</mwm:value>
+        <mwm:value>wheelchair-no</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>18</mwm:scale>
+      <mwm:icon>Medicine</mwm:icon>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Метрологічна вулиця, 60</name>
+    <TimeStamp><when>2023-08-10T04:56:50Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.476433,50.344153</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">Метрологічна вулиця, 60</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+        <mwm:value>building-has_parts</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>16</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Інститут геофізики імені С. І. Субботіна</name>
+    <TimeStamp><when>2023-08-10T04:57:14Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.357598,50.469137</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">Інститут геофізики імені С. І. Субботіна</mwm:lang>
+        <mwm:lang code="uk">Інститут геофізики імені С. І. Субботіна</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>office</mwm:value>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>16</mwm:scale>
+      <mwm:icon>Building</mwm:icon>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Берестейський проспект, 30</name>
+    <TimeStamp><when>2023-08-10T04:57:46Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.465804,50.452063</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">Берестейський проспект, 30</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>16</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>вулиця Петра Сагайдачного, 25</name>
+    <TimeStamp><when>2023-08-10T04:58:19Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.52265,50.460246</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">вулиця Петра Сагайдачного, 25</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>18</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>вулиця Левка Лукʼяненка, 19</name>
+    <TimeStamp><when>2023-08-10T04:58:54Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.495681,50.513963</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">вулиця Левка Лукʼяненка, 19</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>16</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>вулиця Левка Лукʼяненка, 6-А</name>
+    <TimeStamp><when>2023-08-10T05:04:02Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.494802,50.510446</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">вулиця Левка Лукʼяненка, 6-А</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>16</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>вулиця Олекси Тихого, 70</name>
+    <TimeStamp><when>2023-08-10T05:04:52Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.438383,50.449945</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">вулиця Олекси Тихого, 70</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>17</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Червонозаводська вулиця, 4</name>
+    <TimeStamp><when>2023-08-10T05:05:50Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.400848,50.45542</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">Червонозаводська вулиця, 4</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>17</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Чистяківська вулиця, 2-А</name>
+    <TimeStamp><when>2023-08-10T05:06:16Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.394995,50.457024</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">Чистяківська вулиця, 2-А</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>19</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>вулиця Героїв України, 10</name>
+    <TimeStamp><when>2023-08-10T05:08:37Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.786924,50.512828</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">вулиця Героїв України, 10</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>17</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>вулиця Ольжича, 14-Б</name>
+    <TimeStamp><when>2023-08-10T07:34:34Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.447891,50.479918</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">вулиця Ольжича, 14-Б</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>15</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>вулиця Митрополита Василя Липківського, 37-В</name>
+    <TimeStamp><when>2023-08-10T08:54:41Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.478725,50.430183</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">вулиця Митрополита Василя Липківського, 37-В</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>16</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Макіївська вулиця, 4</name>
+    <TimeStamp><when>2023-08-10T08:56:18Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.455042,50.506648</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">Макіївська вулиця, 4</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>17</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Пуща-Водицький провулок</name>
+    <TimeStamp><when>2023-08-10T08:57:59Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.446408,50.523434</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">Пуща-Водицький провулок</mwm:lang>
+        <mwm:lang code="en">Puscha-Vodytskyi Lane</mwm:lang>
+        <mwm:lang code="uk">Пуща-Водицький провулок</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>highway-residential</mwm:value>
+        <mwm:value>psurface-paved_good</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>17</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Novus</name>
+    <TimeStamp><when>2023-08-10T08:59:42Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.462942,50.412791</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">Novus</mwm:lang>
+        <mwm:lang code="uk">Novus</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>shop-supermarket</mwm:value>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>17</mwm:scale>
+      <mwm:icon>Shop</mwm:icon>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ізяславський провулок</name>
+    <TimeStamp><when>2023-08-10T09:00:09Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.426129,50.396066</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">Ізяславський провулок</mwm:lang>
+        <mwm:lang code="alt_name">Ватутіна провулок</mwm:lang>
+        <mwm:lang code="en">Izyaslavskyy Lane</mwm:lang>
+        <mwm:lang code="uk">Ізяславський провулок</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>highway-residential</mwm:value>
+        <mwm:value>psurface-paved_good</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>16</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Золотоустівська вулиця, 55</name>
+    <TimeStamp><when>2023-08-10T09:00:55Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.485596,50.453852</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">Золотоустівська вулиця, 55</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>17</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Business center Eurasia</name>
+    <TimeStamp><when>2023-08-10T09:21:27Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.498743,50.438964</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">Business center Eurasia</mwm:lang>
+        <mwm:lang code="uk">Business center Eurasia</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>18</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Новомостицька вулиця, 25</name>
+    <TimeStamp><when>2023-08-11T04:49:37Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.436199,50.499231</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">Новомостицька вулиця, 25</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building-address</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>17</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Газова вулиця, 5</name>
+    <TimeStamp><when>2023-08-11T04:53:40Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.43189,50.427444</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">Газова вулиця, 5</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>17</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Консультаційна поліклініка</name>
+    <TimeStamp><when>2023-08-11T05:48:52Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.470628,50.472717</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">Консультаційна поліклініка</mwm:lang>
+        <mwm:lang code="uk">Консультаційна поліклініка</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>amenity-clinic</mwm:value>
+        <mwm:value>building</mwm:value>
+        <mwm:value>wheelchair-yes</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>17</mwm:scale>
+      <mwm:icon>Medicine</mwm:icon>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>вулиця Євгена Коновальця, 32-В</name>
+    <TimeStamp><when>2023-08-11T08:19:43Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.531598,50.425236</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">вулиця Євгена Коновальця, 32-В</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>17</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Оболонська набережна, 1 к1</name>
+    <TimeStamp><when>2023-08-11T08:24:58Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.528146,50.490707</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">Оболонська набережна, 1 к1</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>16</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>бульвар Вацлава Гавела, 6/7а</name>
+    <TimeStamp><when>2023-08-11T17:39:34Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.421559,50.447303</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">бульвар Вацлава Гавела, 6/7а</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>19</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Братиславська вулиця, 14-Б</name>
+    <TimeStamp><when>2023-08-11T17:43:42Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.629069,50.467792</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">Братиславська вулиця, 14-Б</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>17</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Братиславська вулиця, 14-Б</name>
+    <TimeStamp><when>2023-08-11T17:45:18Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.629578,50.467431</coordinates></Point>
+    <ExtendedData xmlns:mwm="https://omaps.app">
+      <mwm:name>
+        <mwm:lang code="default">Братиславська вулиця, 14-Б</mwm:lang>
+      </mwm:name>
+      <mwm:featureTypes>
+        <mwm:value>building</mwm:value>
+      </mwm:featureTypes>
+      <mwm:scale>17</mwm:scale>
+      <mwm:visibility>1</mwm:visibility>
+    </ExtendedData>
+  </Placemark>
+</Document>
+</kml>
