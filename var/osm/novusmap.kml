@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <Placemark>
+      <name>Кільцева дорога, 12</name>
+      <Point><coordinates>30.398118,50.406208</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>Броварський просп., 17</name>
+      <Point><coordinates>30.593882,50.453133</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>просп. Академіка Палладіна, 7а</name>
+      <Point><coordinates>30.355472,50.461568</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>просп. Миколи Бажана, 8</name>
+      <Point><coordinates>30.611447,50.393546</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Гната Хоткевича, 1а</name>
+      <Point><coordinates>30.632293,50.458758</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>Гостомельська площа, 1</name>
+      <Point><coordinates>30.366682,50.497555</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>просп. Валерія Лобановського, 4д</name>
+      <Point><coordinates>30.464052,50.422637</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Юлії Здановської (Ломоносова), 73а</name>
+      <Point><coordinates>30.469847,50.386768</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>Броварський просп., 18д</name>
+      <Point><coordinates>30.654816,50.466867</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Воскресенська, 14а</name>
+      <Point><coordinates>30.601701,50.468427</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Регенераторна, 4а</name>
+      <Point><coordinates>30.621564,50.438051</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Євгена Сверстюка, 4</name>
+      <Point><coordinates>30.602224,50.447505</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Георгія Кірпи, 5</name>
+      <Point><coordinates>30.486106,50.437249</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Святошинська, 3</name>
+      <Point><coordinates>30.388138,50.455196</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>Дніпровська набережна, 17а</name>
+      <Point><coordinates>30.610758,50.406925</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Львівська, 17</name>
+      <Point><coordinates>30.374170,50.454318</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Софії Русової, 1а</name>
+      <Point><coordinates>30.625709,50.389602</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Княжий затон, 4/4</name>
+      <Point><coordinates>30.624609,50.402860</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Здолбунівська, 7г</name>
+      <Point><coordinates>30.605716,50.411198</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>просп. Петра Григоренка, 18</name>
+      <Point><coordinates>30.625812,50.410841</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>б-р Миколи Міхновського (Дружби Народів), 16а</name>
+      <Point><coordinates>30.538325,50.414219</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>просп. Володимира Івасюка (Героїв Сталінграду), 4а</name>
+      <Point><coordinates>30.521881,50.493911</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Івана Кавалерідзе, 1А</name>
+      <Point><coordinates>30.4239953,50.4953665</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Золотоустівська, 48/5</name>
+      <Point><coordinates>30.4866506,50.4530442</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Іонна Павла II, 5</name>
+      <Point><coordinates>30.5295941,50.4214719</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>просп. Романа Шухевича, 2 (ТРЦ Skymall)</name>
+      <Point><coordinates>30.561840,50.494216</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>просп. Правди, 41</name>
+      <Point><coordinates>30.427233,50.502234</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>просп. Правди, 47 (ТРЦ Retroville)</name>
+      <Point><coordinates>30.417082,50.503643</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Івана Пулюя, 8А</name>
+      <Point><coordinates>30.462652,50.413377</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>площа Слави, 1(ТЦ Арсенал)</name>
+      <Point><coordinates>30.550194,50.440448</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Академіка Біляшівського, 10</name>
+      <Point><coordinates>30.3701226089603,50.437618087024774</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Ушинського, 14 а </name>
+      <Point><coordinates>30.447893840879992,50.43288241800034</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Самійшла Кішки (Маршала Конєва), 10/1</name>
+      <Point><coordinates>30.457788334032347,50.382531968886774</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Голосіївська, 13 А</name>
+      <Point><coordinates>30.519567229685464,50.399626990452376</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул.  Митрополита Василя Липківського, 22 </name>
+      <Point><coordinates>30.4829520294154,50.433698587259656</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>просп. Повітрофлотський, 56 А</name>
+      <Point><coordinates>30.455411439830552,50.422348887771605</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Богатирська, 30 А</name>
+      <Point><coordinates>30.486639923003594,50.542063246031866</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Сиваська, 1А </name>
+      <Point><coordinates>30.64629641094759,50.43404338505049</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>Львівська площа, 8Б  </name>
+      <Point><coordinates>30.506810311956663,50.45572803346236</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Нижній Вал, 17/8 </name>
+      <Point><coordinates>30.51061645820348,50.46539495858553</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Анни Ахматової, 49</name>
+      <Point><coordinates>30.615138348248525,50.40470539015134</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Будівельників, 40 (ТЦ DOMA Center)</name>
+      <Point><coordinates>30.610833574168957,50.454981590877566</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>Чоколівський Бульвар, 19</name>
+      <Point><coordinates>30.45522655593102,50.43058932295365</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Братиславська, 48 а</name>
+      <Point><coordinates>30.612228041662668,50.48749295282103</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Бульварно-Кудрявська, 17-Г (ЖК Ярославів град)</name>
+      <Point><coordinates>30.502401863006625,50.4529480597979</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Тростянецька, 1А </name>
+      <Point><coordinates>30.645594870352685,50.41469194403633</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Сержа Лифаря, 13</name>
+      <Point><coordinates>30.609238004605533,50.514025333034155</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Загорівська, 17-21</name>
+      <Point><coordinates>30.476261898253597,50.470872665182405</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Васильківська, 100 А</name>
+      <Point><coordinates>30.476377499973406,50.38222219001143</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Михайла Гришка, 3</name>
+      <Point><coordinates>30.633072284631464,50.39635273027655</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>проспект Берестейський, 134/1 (ТЦ ХIT Mall)</name>
+      <Point><coordinates>30.363310347077658,50.45632041347506</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Велика Васильківська, 100 </name>
+      <Point><coordinates>30.515474135461922,50.42674612838997</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Митрополита Василя Липківського, 45 </name>
+      <Point><coordinates>30.472729193573457,50.43132514778233</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>Майдан незалежності, 1, ТЦ Глобус 2 </name>
+      <Point><coordinates>30.525808937312952,50.44923112532068</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>Дарницька площа, 1</name>
+      <Point><coordinates>30.628894630058006,50.440532781486645</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>Майдан незалежності, 1, ТЦ Глобус 1</name>
+      <Point><coordinates>30.52240271257509,50.451024861681724</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Метрологічна, 19</name>
+      <Point><coordinates>30.47654575168989,50.340058609876806</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>Бессарабська пл., 2</name>
+      <Point><coordinates>30.521674711465323,50.442329617317206</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>просп. Леся Курбаса, 19 А (ТЦ Апрель)</name>
+      <Point><coordinates>30.368011350053212,50.42414614289405</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Солом’янська, 16Б</name>
+      <Point><coordinates>30.477561590511673,50.42440843464803</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>пл. Керченська, 7</name>
+      <Point><coordinates>30.58826,50.49454</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>просп. Червоної Калини, 85</name>
+      <Point><coordinates>30.61812,50.52246</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <name>вул. Тальнівська, 3</name>
+      <Point><coordinates>30.6193640,50.4081788</coordinates></Point>
+  </Placemark>
+</Document>
+</kml>
