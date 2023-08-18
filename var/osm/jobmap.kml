@@ -245,5 +245,109 @@
     <name>Братиславська вулиця, 14-Б</name>
     <Point><coordinates>30.629578,50.467431</coordinates></Point>
   </Placemark>
+  <Placemark>
+    <name>Будинок клубного типу «Нагірний»</name>
+    <Point><coordinates>30.481073,50.475019</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>проспект Володимира Івасюка, 8</name>
+    <Point><coordinates>30.520294,50.497397</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>бульвар Академіка Вернадського, 4</name>
+    <Point><coordinates>30.379445,50.458046</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>вулиця Зодчих, 54</name>
+    <Point><coordinates>30.366265,50.428599</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>бульвар Верховної Ради, 21-Б</name>
+    <Point><coordinates>30.622841,50.450204</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Новопечерський Двір</name>
+    <Point><coordinates>30.544473,50.413627</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Здолбунівська вулиця, 13</name>
+    <Point><coordinates>30.625241,50.417935</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Срібнокільська вулиця, 22</name>
+    <Point><coordinates>30.618498,50.399687</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Липська вулиця, 9-А</name>
+    <Point><coordinates>30.535936,50.444419</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Jack House</name>
+    <Point><coordinates>30.532139,50.434424</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>проспект Володимира Івасюка, 12-Е</name>
+    <Point><coordinates>30.513282,50.506316</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>вулиця Джона Маккейна, 22-А</name>
+    <Point><coordinates>30.538852,50.41747</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>вулиця Віталія Скакуна, 19</name>
+    <Point><coordinates>30.408577,50.437222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>проспект Валерія Лобановського, 4-В</name>
+    <Point><coordinates>30.462539,50.422303</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>вулиця Левка Лукʼяненка, 2-Б</name>
+    <Point><coordinates>30.492775,50.507789</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Оболонський проспект, 1</name>
+    <Point><coordinates>30.497614,50.499037</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>вулиця Кубанської України, 1</name>
+    <Point><coordinates>30.645012,50.469928</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ріко Офисний центр</name>
+    <Point><coordinates>30.460912,50.505805</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>вулиця Всеволода Петріва, 12</name>
+    <Point><coordinates>30.409428,50.462525</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>вулиця Євгена Чикаленка, 19-Б</name>
+    <Point><coordinates>30.518541,50.444026</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Вишгородська вулиця, 45Б/4</name>
+    <Point><coordinates>30.449824,50.509883</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>вулиця Євгена Коновальця, 44-Б</name>
+    <Point><coordinates>30.540014,50.423858</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>проспект Науки, 41</name>
+    <Point><coordinates>30.530354,50.391195</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Калинова вулиця, 8</name>
+    <Point><coordinates>30.421863,50.467436</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>ЖК Busov Hill</name>
+    <Point><coordinates>30.556384,50.407408</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Дружківська вулиця, 10</name>
+    <Point><coordinates>30.412714,50.45545</coordinates></Point>
+  </Placemark>
 </Document>
 </kml>
