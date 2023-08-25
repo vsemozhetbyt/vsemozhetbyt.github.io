@@ -349,5 +349,41 @@
     <name>Дружківська вулиця, 10</name>
     <Point><coordinates>30.412714,50.45545</coordinates></Point>
   </Placemark>
+  <Placemark>
+    <name>Центральна дитяча поліклініка Оболонського району</name>
+    <Point><coordinates>30.503059,50.526962</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>вулиця Миколи Пимоненка, 2-В</name>
+    <Point><coordinates>30.490761,50.45691</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>проспект Валерія Лобановського, 6-Д</name>
+    <Point><coordinates>30.46585,50.421105</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>вулиця Юлії Здановської, 34/1а</name>
+    <Point><coordinates>30.478309,50.389785</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>вулиця Героїв Дніпра, 23</name>
+    <Point><coordinates>30.491818,50.521251</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>вулиця Академіка Єфремова, 19-А</name>
+    <Point><coordinates>30.343956,50.463365</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Садово-Ботанічна вулиця, 4</name>
+    <Point><coordinates>30.55633,50.413947</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Новогоспітальна вулиця, 5</name>
+    <Point><coordinates>30.534152,50.42861</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>вулиця Авіаконструктора Антонова, 4к1</name>
+    <Point><coordinates>30.457729,50.432075</coordinates></Point>
+  </Placemark>
 </Document>
 </kml>
