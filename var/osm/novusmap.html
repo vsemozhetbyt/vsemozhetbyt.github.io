@@ -7,7 +7,6 @@
       integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
       integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-    <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
     <style>
       html, body { height: 100%; overflow: hidden; }
       #map { height: 100%; }
@@ -21,7 +20,332 @@
         maxZoom: 19,
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
       }).addTo(map);
-      omnivore.kml('novusmap.kml').addTo(map);
+
+      const geoJSON = {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.398118, 50.406208] },
+            "properties": { "name": "Кільцева дорога, 12" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.593882, 50.453133] },
+            "properties": { "name": "Броварський просп., 17" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.355472, 50.461568] },
+            "properties": { "name": "просп. Академіка Палладіна, 7а" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.611447, 50.393546] },
+            "properties": { "name": "просп. Миколи Бажана, 8" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.632293, 50.458758] },
+            "properties": { "name": "вул. Гната Хоткевича, 1а" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.366682, 50.497555] },
+            "properties": { "name": "Гостомельська площа, 1" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.464052, 50.422637] },
+            "properties": { "name": "просп. Валерія Лобановського, 4д" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.469847, 50.386768] },
+            "properties": { "name": "вул. Юлії Здановської (Ломоносова), 73а" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.654816, 50.466867] },
+            "properties": { "name": "Броварський просп., 18д" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.601701, 50.468427] },
+            "properties": { "name": "вул. Воскресенська, 14а" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.621564, 50.438051] },
+            "properties": { "name": "вул. Регенераторна, 4а" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.602224, 50.447505] },
+            "properties": { "name": "вул. Євгена Сверстюка, 4" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.486106, 50.437249] },
+            "properties": { "name": "вул. Георгія Кірпи, 5" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.388138, 50.455196] },
+            "properties": { "name": "вул. Святошинська, 3" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.610758, 50.406925] },
+            "properties": { "name": "Дніпровська набережна, 17а" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.37417, 50.454318] },
+            "properties": { "name": "вул. Львівська, 17" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.625709, 50.389602] },
+            "properties": { "name": "вул. Софії Русової, 1а" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.624609, 50.40286] },
+            "properties": { "name": "вул. Княжий затон, 4/4" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.605716, 50.411198] },
+            "properties": { "name": "вул. Здолбунівська, 7г" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.625812, 50.410841] },
+            "properties": { "name": "просп. Петра Григоренка, 18" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.538325, 50.414219] },
+            "properties": { "name": "б-р Миколи Міхновського (Дружби Народів), 16а" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.521881, 50.493911] },
+            "properties": { "name": "просп. Володимира Івасюка (Героїв Сталінграду), 4а" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.4239953, 50.4953665] },
+            "properties": { "name": "вул. Івана Кавалерідзе, 1А" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.4866506, 50.4530442] },
+            "properties": { "name": "вул. Золотоустівська, 48/5" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.5295941, 50.4214719] },
+            "properties": { "name": "вул. Іонна Павла II, 5" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.56184, 50.494216] },
+            "properties": { "name": "просп. Романа Шухевича, 2 (ТРЦ Skymall)" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.427233, 50.502234] },
+            "properties": { "name": "просп. Правди, 41" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.417082, 50.503643] },
+            "properties": { "name": "просп. Правди, 47 (ТРЦ Retroville)" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.462652, 50.413377] },
+            "properties": { "name": "вул. Івана Пулюя, 8А" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.550194, 50.440448] },
+            "properties": { "name": "площа Слави, 1(ТЦ Арсенал)" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.3701226089603, 50.437618087024774] },
+            "properties": { "name": "вул. Академіка Біляшівського, 10" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.447893840879992, 50.43288241800034] },
+            "properties": { "name": "вул. Ушинського, 14 а " }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.457788334032347, 50.382531968886774] },
+            "properties": { "name": "вул. Самійшла Кішки (Маршала Конєва), 10/1" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.519567229685464, 50.399626990452376] },
+            "properties": { "name": "вул. Голосіївська, 13 А" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.4829520294154, 50.433698587259656] },
+            "properties": { "name": "вул.  Митрополита Василя Липківського, 22 " }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.455411439830552, 50.422348887771605] },
+            "properties": { "name": "просп. Повітрофлотський, 56 А" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.486639923003594, 50.542063246031866] },
+            "properties": { "name": "вул. Богатирська, 30 А" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.64629641094759, 50.43404338505049] },
+            "properties": { "name": "вул. Сиваська, 1А " }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.506810311956663, 50.45572803346236] },
+            "properties": { "name": "Львівська площа, 8Б  " }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.51061645820348, 50.46539495858553] },
+            "properties": { "name": "вул. Нижній Вал, 17/8 " }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.615138348248525, 50.40470539015134] },
+            "properties": { "name": "вул. Анни Ахматової, 49" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.610833574168957, 50.454981590877566] },
+            "properties": { "name": "вул. Будівельників, 40 (ТЦ DOMA Center)" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.45522655593102, 50.43058932295365] },
+            "properties": { "name": "Чоколівський Бульвар, 19" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.612228041662668, 50.48749295282103] },
+            "properties": { "name": "вул. Братиславська, 48 а" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.502401863006625, 50.4529480597979] },
+            "properties": { "name": "вул. Бульварно-Кудрявська, 17-Г (ЖК Ярославів град)" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.645594870352685, 50.41469194403633] },
+            "properties": { "name": "вул. Тростянецька, 1А " }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.609238004605533, 50.514025333034155] },
+            "properties": { "name": "вул. Сержа Лифаря, 13" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.476261898253597, 50.470872665182405] },
+            "properties": { "name": "вул. Загорівська, 17-21" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.476377499973406, 50.38222219001143] },
+            "properties": { "name": "вул. Васильківська, 100 А" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.633072284631464, 50.39635273027655] },
+            "properties": { "name": "вул. Михайла Гришка, 3" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.363310347077658, 50.45632041347506] },
+            "properties": { "name": "проспект Берестейський, 134/1 (ТЦ ХIT Mall)" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.515474135461922, 50.42674612838997] },
+            "properties": { "name": "вул. Велика Васильківська, 100 " }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.472729193573457, 50.43132514778233] },
+            "properties": { "name": "вул. Митрополита Василя Липківського, 45 " }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.525808937312952, 50.44923112532068] },
+            "properties": { "name": "Майдан незалежності, 1, ТЦ Глобус 2 " }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.628894630058006, 50.440532781486645] },
+            "properties": { "name": "Дарницька площа, 1" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.52240271257509, 50.451024861681724] },
+            "properties": { "name": "Майдан незалежності, 1, ТЦ Глобус 1" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.47654575168989, 50.340058609876806] },
+            "properties": { "name": "вул. Метрологічна, 19" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.521674711465323, 50.442329617317206] },
+            "properties": { "name": "Бессарабська пл., 2" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.368011350053212, 50.42414614289405] },
+            "properties": { "name": "просп. Леся Курбаса, 19 А (ТЦ Апрель)" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.477561590511673, 50.42440843464803] },
+            "properties": { "name": "вул. Солом’янська, 16Б" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.58826, 50.49454] },
+            "properties": { "name": "пл. Керченська, 7" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.61812, 50.52246] },
+            "properties": { "name": "просп. Червоної Калини, 85" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.619364, 50.4081788] },
+            "properties": { "name": "вул. Тальнівська, 3" }
+          }
+        ]
+      };
+
+      L.geoJSON(geoJSON)
+       .bindPopup(layer => layer.feature.properties.name)
+       .bindTooltip(layer => layer.feature.properties.name)
+       .addTo(map);
     </script>
   </body>
 </html>
