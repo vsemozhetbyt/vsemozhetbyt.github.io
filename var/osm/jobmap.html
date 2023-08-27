@@ -21,9 +21,499 @@
         maxZoom: 19,
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
       }).addTo(map);
-      omnivore.kml('jobmap.kml').addTo(map);
 
       // ^ +<(?!/?Placemark>|/?name>|/?Point>).+\n
+
+      const geoJSON = {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.447517, 50.49403] },
+            "properties": { "name": "Білицька вулиця, 18-Б" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.535705, 50.443733] },
+            "properties": { "name": "Липська вулиця, 11" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.538892, 50.436416] },
+            "properties": { "name": "Печерський узвіз, 19" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.532137, 50.423148] },
+            "properties": { "name": "Фортечний тупик, 6/8" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.614227, 50.521791] },
+            "properties": { "name": "вулиця Костянтина Данькевича, 12" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.61828, 50.475908] },
+            "properties": { "name": "Братиславська вулиця, 7" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.636355, 50.47614] },
+            "properties": { "name": "вулиця Кубанської України, 31-А" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.651067, 50.393103] },
+            "properties": { "name": "Вишняківська вулиця, 1" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.476954, 50.466179] },
+            "properties": { "name": "вулиця Юрія Іллєнка, 18-Б" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.493991, 50.460759] },
+            "properties": { "name": "вулиця Миколи Пимоненка, 10-А" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.50696, 50.447309] },
+            "properties": { "name": "вулиця Богдана Хмельницького, 48" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.536383, 50.427097] },
+            "properties": { "name": "вулиця Генерала Алмазова, 14" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.622086, 50.405649] },
+            "properties": { "name": "Урлівська вулиця, 16" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.620408, 50.395301] },
+            "properties": { "name": "проспект Миколи Бажана, 10-А" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.601331, 50.512473] },
+            "properties": { "name": "вулиця Оноре де Бальзака, 42/20" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.579099, 50.500504] },
+            "properties": { "name": "вулиця Оноре де Бальзака, 6" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.604348, 50.457296] },
+            "properties": { "name": "проспект Георгія Нарбута, 5" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.615174, 50.438141] },
+            "properties": { "name": "проспект Соборності, 15" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.629011, 50.401055] },
+            "properties": { "name": "Срібнокільська вулиця, 4" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.64597, 50.46476] },
+            "properties": { "name": "Лісова" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.442147, 50.43496] },
+            "properties": { "name": "вулиця Августина Волошина, 2-А" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.517442, 50.424809] },
+            "properties": { "name": "Велика Васильківська вулиця, 104" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.510148, 50.510869] },
+            "properties": { "name": "проспект Володимира Івасюка, 20" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.494438, 50.523078] },
+            "properties": { "name": "вулиця Героїв Дніпра, 35" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.494882, 50.462794] },
+            "properties": { "name": "Глибочицька вулиця, 33-37" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.439098, 50.458613] },
+            "properties": { "name": "вулиця Антона Цедіка, 7" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.350972, 50.463271] },
+            "properties": { "name": "вулиця Академіка Єфремова, 7-А" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.460086, 50.454566] },
+            "properties": { "name": "Зоологічна вулиця, 1" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.503464, 50.498826] },
+            "properties": { "name": "Йорданська вулиця, 17" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.497784, 50.473271] },
+            "properties": { "name": "Кирилівська вулиця, 46" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.544718, 50.424507] },
+            "properties": { "name": "бульвар Лесі Українки, 23-А" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.503161, 50.406549] },
+            "properties": { "name": "проспект Валерія Лобановського, 128" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.45984, 50.384638] },
+            "properties": { "name": "вулиця Юлії Здановської, 58-А" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.427459, 50.449099] },
+            "properties": { "name": "Машинобудівна вулиця, 42" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.508933, 50.470313] },
+            "properties": { "name": "Межигірська вулиця, 43-А" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.476433, 50.344153] },
+            "properties": { "name": "Метрологічна вулиця, 60" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.357598, 50.469137] },
+            "properties": { "name": "проспект Академіка Палладіна, 32" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.465804, 50.452063] },
+            "properties": { "name": "Берестейський проспект, 30" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.52265, 50.460246] },
+            "properties": { "name": "вулиця Петра Сагайдачного, 25" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.495681, 50.513963] },
+            "properties": { "name": "вулиця Левка Лукʼяненка, 19" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.494802, 50.510446] },
+            "properties": { "name": "вулиця Левка Лукʼяненка, 6-А" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.438383, 50.449945] },
+            "properties": { "name": "вулиця Олекси Тихого, 70" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.400848, 50.45542] },
+            "properties": { "name": "Червонозаводська вулиця, 4" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.394995, 50.457024] },
+            "properties": { "name": "Чистяківська вулиця, 2-А" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.786924, 50.512828] },
+            "properties": { "name": "вулиця Героїв України, 10" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.447891, 50.479918] },
+            "properties": { "name": "вулиця Ольжича, 14-Б" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.478725, 50.430183] },
+            "properties": { "name": "вулиця Митрополита Василя Липківського, 37-В" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.455042, 50.506648] },
+            "properties": { "name": "Макіївська вулиця, 4" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.446408, 50.523434] },
+            "properties": { "name": "Пуща-Водицький провулок, 2" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.462942, 50.412791] },
+            "properties": { "name": "вулиця Івана Пулюя, 8-А" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.426129, 50.396066] },
+            "properties": { "name": "Ізяславський провулок, 15" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.485596, 50.453852] },
+            "properties": { "name": "Золотоустівська вулиця, 55" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.498743, 50.438964] },
+            "properties": { "name": "Жилянська вулиця, 75" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.436199, 50.499231] },
+            "properties": { "name": "Новомостицька вулиця, 25" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.43189, 50.427444] },
+            "properties": { "name": "Газова вулиця, 5" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.470628, 50.472717] },
+            "properties": { "name": "Загорівська вулиця, 1" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.531598, 50.425236] },
+            "properties": { "name": "вулиця Євгена Коновальця, 32-В" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.528146, 50.490707] },
+            "properties": { "name": "Оболонська набережна, 1 к1" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.421559, 50.447303] },
+            "properties": { "name": "бульвар Вацлава Гавела, 6/7а" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.629069, 50.467792] },
+            "properties": { "name": "Братиславська вулиця, 14-Б" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.629578, 50.467431] },
+            "properties": { "name": "Братиславська вулиця, 14-Б" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.481073, 50.475019] },
+            "properties": { "name": "Нагірна вулиця, 15" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.520294, 50.497397] },
+            "properties": { "name": "проспект Володимира Івасюка, 8" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.379445, 50.458046] },
+            "properties": { "name": "бульвар Академіка Вернадського, 4" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.366265, 50.428599] },
+            "properties": { "name": "вулиця Зодчих, 54" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.622841, 50.450204] },
+            "properties": { "name": "бульвар Верховної Ради, 21-Б" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.544473, 50.413627] },
+            "properties": { "name": "вулиця Андрія Верхогляда, 2-А" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.625241, 50.417935] },
+            "properties": { "name": "Здолбунівська вулиця, 13" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.618498, 50.399687] },
+            "properties": { "name": "Срібнокільська вулиця, 22" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.535936, 50.444419] },
+            "properties": { "name": "Липська вулиця, 9-А" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.532139, 50.434424] },
+            "properties": { "name": "бульвар Лесі Українки, 7-В" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.513282, 50.506316] },
+            "properties": { "name": "проспект Володимира Івасюка, 12-Е" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.538852, 50.41747] },
+            "properties": { "name": "вулиця Джона Маккейна, 22-А" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.408577, 50.437222] },
+            "properties": { "name": "вулиця Віталія Скакуна, 19" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.462539, 50.422303] },
+            "properties": { "name": "проспект Валерія Лобановського, 4-В" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.492775, 50.507789] },
+            "properties": { "name": "вулиця Левка Лукʼяненка, 2-Б" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.497614, 50.499037] },
+            "properties": { "name": "Оболонський проспект, 1" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.645012, 50.469928] },
+            "properties": { "name": "вулиця Кубанської України, 1" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.460912, 50.505805] },
+            "properties": { "name": "Новозабарська вулиця, 2/6" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.409428, 50.462525] },
+            "properties": { "name": "вулиця Всеволода Петріва, 12" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.518541, 50.444026] },
+            "properties": { "name": "вулиця Євгена Чикаленка, 19-Б" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.449824, 50.509883] },
+            "properties": { "name": "Вишгородська вулиця, 45Б/4" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.540014, 50.423858] },
+            "properties": { "name": "вулиця Євгена Коновальця, 44-Б" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.530354, 50.391195] },
+            "properties": { "name": "проспект Науки, 41" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.421863, 50.467436] },
+            "properties": { "name": "Калинова вулиця, 8" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.412714, 50.45545] },
+            "properties": { "name": "Дружківська вулиця, 10" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.503059, 50.526962] },
+            "properties": { "name": "Північна вулиця, 4-А" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.490761, 50.45691] },
+            "properties": { "name": "вулиця Миколи Пимоненка, 2-В" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.46585, 50.421105] },
+            "properties": { "name": "проспект Валерія Лобановського, 6-Д" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.478309, 50.389785] },
+            "properties": { "name": "вулиця Юлії Здановської, 34/1а" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.491818, 50.521251] },
+            "properties": { "name": "вулиця Героїв Дніпра, 23" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.343956, 50.463365] },
+            "properties": { "name": "вулиця Академіка Єфремова, 19-А" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.55633, 50.413947] },
+            "properties": { "name": "Садово-Ботанічна вулиця, 4" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.534152, 50.42861] },
+            "properties": { "name": "Новогоспітальна вулиця, 5" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.457729, 50.432075] },
+            "properties": { "name": "вулиця Авіаконструктора Антонова, 4к1" }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.556298, 50.407282] },
+            "properties": { "name": "Буслівська вулиця, 12" }
+          }
+        ]
+      };
+
+      L.geoJSON(geoJSON)
+       .bindTooltip(layer => layer.feature.properties.name)
+       .bindPopup(layer => layer.feature.properties.name)
+       .addTo(map);
     </script>
   </body>
 </html>
