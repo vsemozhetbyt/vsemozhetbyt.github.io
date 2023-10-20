@@ -22,8 +22,6 @@
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
       }).addTo(map);
 
-      // ^ +<(?!/?Placemark>|/?name>|/?Point>).+\n
-
       const geoJSON = {
         "type": "FeatureCollection",
         "features": [
@@ -409,11 +407,6 @@
           },
           {
             "type": "Feature",
-            "geometry": { "type": "Point", "coordinates": [30.645012, 50.469928] },
-            "properties": { "name": "вулиця Кубанської України, 1" }
-          },
-          {
-            "type": "Feature",
             "geometry": { "type": "Point", "coordinates": [30.460912, 50.505805] },
             "properties": { "name": "Новозабарська вулиця, 2/6" }
           },
@@ -541,11 +534,6 @@
             "type": "Feature",
             "geometry": { "type": "Point", "coordinates": [30.514026, 50.426165] },
             "properties": { "name": "вулиця Антоновича, 74" }
-          },
-          {
-            "type": "Feature",
-            "geometry": { "type": "Point", "coordinates": [30.585349, 50.460937] },
-            "properties": { "name": "Комбінатна вулиця, 25" }
           },
           {
             "type": "Feature",
@@ -752,8 +740,55 @@
             "geometry": { "type": "Point", "coordinates": [30.624553, 50.402216] },
             "properties": { "name": "вулиця Княжий Затон, 9" }
           },
+          {
+            "type": "Feature",
+            "properties": { "name": "Волоська вулиця, 47" },
+            "geometry": { "type": "Point", "coordinates": [30.512176, 50.471396] }
+          },
+          {
+            "type": "Feature",
+            "properties": { "name": "вулиця Героїв полку «Азов», 9а" },
+            "geometry": { "type": "Point", "coordinates": [30.491405, 50.5038] }
+          },
+          {
+            "type": "Feature",
+            "properties": { "name": "Комбінатна вулиця, 25-А" },
+            "geometry": { "type": "Point", "coordinates": [30.585116, 50.461615] }
+          },
+          {
+            "type": "Feature",
+            "properties": { "name": "вулиця Ревуцького, 9" },
+            "geometry": { "type": "Point", "coordinates": [30.642869, 50.418959] }
+          },
+          {
+            "type": "Feature",
+            "properties": { "name": "Харківське шосе, 48" },
+            "geometry": { "type": "Point", "coordinates": [30.631825, 50.432785] }
+          },
+          {
+            "type": "Feature",
+            "properties": { "name": "вулиця Митрофана Довнар-Запольського, 11" },
+            "geometry": { "type": "Point", "coordinates": [30.473902, 50.463589] }
+          },
+          {
+            "type": "Feature",
+            "properties": { "name": "Жилянська вулиця, 148" },
+            "geometry": { "type": "Point", "coordinates": [30.487434, 50.446474] }
+          },
+          {
+            "type": "Feature",
+            "properties": { "name": "вулиця Кубанської України, 1а" },
+            "geometry": { "type": "Point", "coordinates": [30.644291, 50.470839] }
+          },
+          {
+            "type": "Feature",
+            "properties": { "name": "вулиця Вадима Гетьмана, 26-28" },
+            "geometry": { "type": "Point", "coordinates": [30.441195, 50.445863] }
+          },
         ]
       };
+
+      // ^ +<(?!/?Placemark>|/?name>|/?Point>).+\n
 
       L.geoJSON(geoJSON)
        .bindTooltip(layer => layer.feature.properties.name)

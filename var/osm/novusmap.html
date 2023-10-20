@@ -338,13 +338,18 @@
             "type": "Feature",
             "geometry": { "type": "Point", "coordinates": [30.619364, 50.4081788] },
             "properties": { "name": "вул. Тальнівська, 3" }
-          }
+          },
+          {
+            "type": "Feature",
+            "geometry": { "type": "Point", "coordinates": [30.431754, 50.447184] },
+            "properties": { "name": "Гарматна вулиця, 26/2" }
+          },
         ]
       };
 
       L.geoJSON(geoJSON)
-       .bindPopup(layer => layer.feature.properties.name)
        .bindTooltip(layer => layer.feature.properties.name)
+       .bindPopup(layer => layer.feature.properties.name)
        .addTo(map);
     </script>
   </body>
