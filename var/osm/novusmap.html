@@ -344,8 +344,30 @@
             "geometry": { "type": "Point", "coordinates": [30.431754, 50.447184] },
             "properties": { "name": "Гарматна вулиця, 26/2" }
           },
+          {
+            "type": "Feature",
+            "properties": { "name": "Березнева вулиця, 12 к1 (Мі маркет)" },
+            "geometry": { "type": "Point", "coordinates": [30.61973, 50.431467] }
+          },
+          {
+            "type": "Feature",
+            "properties": { "name": "вулиця Олександра Олеся, 2-Б (Мі маркет)" },
+            "geometry": { "type": "Point", "coordinates": [30.425324, 50.500108] }
+          },
+          {
+            "type": "Feature",
+            "properties": { "name": "вулиця Академіка Заболотного, 1 (Мі маркет)" },
+            "geometry": { "type": "Point", "coordinates": [30.461664, 50.370882] }
+          },
+          {
+            "type": "Feature",
+            "properties": { "name": "вулиця Академіка Заболотного, 148-Б (Мі маркет)" },
+            "geometry": { "type": "Point", "coordinates": [30.479858, 50.354934] }
+          },
         ]
       };
+
+      // ^ +<(?!/?Placemark>|/?name>|/?Point>).+\n
 
       L.geoJSON(geoJSON)
        .bindTooltip(layer => layer.feature.properties.name)
