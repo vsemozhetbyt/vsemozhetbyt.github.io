@@ -233,7 +233,7 @@
           {
             "type": "Feature",
             "geometry": { "type": "Point", "coordinates": [30.400848, 50.45542] },
-            "properties": { "name": "Червонозаводська вулиця, 4" }
+            "properties": { "name": "вулиця Олексія Бездольного, 4" }
           },
           {
             "type": "Feature",
@@ -422,8 +422,8 @@
           },
           {
             "type": "Feature",
-            "geometry": { "type": "Point", "coordinates": [30.530354, 50.391195] },
-            "properties": { "name": "проспект Науки, 41" }
+            "geometry": { "type": "Point", "coordinates": [30.530226, 50.390755] },
+            "properties": { "name": "проспект Науки, 41/1" }
           },
           {
             "type": "Feature",
@@ -1320,27 +1320,35 @@
             "properties": { "name": "Цитадельна вулиця, 6/8" },
             "geometry": { "type": "Point", "coordinates": [30.547345, 50.432753] }
           },
-
           {
             "type": "Feature",
             "properties": { "name": "вулиця Михайла Коцюбинського, 1" },
             "geometry": { "type": "Point", "coordinates": [30.504727, 50.448495] }
           },
-
           {
             "type": "Feature",
             "properties": { "name": "вулиця Ревуцького, 40-Г" },
             "geometry": { "type": "Point", "coordinates": [30.649739, 50.40188] }
           },
-
           {
             "type": "Feature",
-            "properties": { "name": "вулиця Профспілкова, 26" },
+            "properties": { "name": "Профспілкова вулиця, 26" },
             "geometry": { "type": "Point", "coordinates": [30.647739, 50.441275] }
+          },
+          {
+            "type": "Feature",
+            "properties": { "name": "Салютна вулиця, 3" },
+            "geometry": { "type": "Point", "coordinates": [30.402121, 50.472411] }
+          },
+          {
+            "type": "Feature",
+            "properties": { "name": "проспект Науки, 16" },
+            "geometry": { "type": "Point", "coordinates": [30.526425, 50.402086] }
           },
         ]
       };
 
+      // clean kml (kmz):
       // ^ +<(?!/?Placemark>|/?name>|/?Point>).+\n
 
       L.geoJSON(geoJSON)
